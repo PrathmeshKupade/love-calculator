@@ -55,8 +55,23 @@ body{
   }
 
   #result-percentage{
-    font-size: 24px;
+    font-size: 25px;
+    font-weight: 600;
   }
+
+  .footer{
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer a{
+    color: whitesmoke;
+  }
+
+ .icons{
+     margin: 0 9px;
+     font-size: 1.7rem;
+ }
 
 
   @media only screen and (max-width: 600px) {
@@ -68,7 +83,7 @@ body{
     #content-box {
         width: 75%;
         height: 60%;
-        margin-top: 95px;
         align-items: center;
     }
   }
+  

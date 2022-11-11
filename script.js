@@ -16,8 +16,13 @@ function calculateLove(){
     else{
         document.getElementById("result-message").innerHTML = "Oops Invalid Input...Please Try Again!"
     }
+    ClearFields();
 
 }
 
+function ClearFields() {
+    document.getElementById("your-name").value = "";
+    document.getElementById("crush-name").value = "";
+}
 
 
